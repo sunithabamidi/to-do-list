@@ -1,0 +1,57 @@
+body {
+  font-family: "Permanent Marker", cursive;
+  background-image: url("/keyboard.jpg");
+  background-size: cover;
+  box-sizing: border-box;
+
+  /* margin: auto; */
+  /* width: 100vw; */
+  height: fit-content;
+  padding: 10px;
+  position: relative;
+}
+.container {
+  font-size: large;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  width: 35rem;
+  height: max-content;
+  position: relative;
+}
+
+.input-clear {
+  display: flex;
+  justify-content: space-between;
+}
+
+#input-task {
+  font-family: "Lobster", cursive;
+  font-size: xx-large;
+  border: rgb(41, 6, 75);
+  color: #9e0f20;
+  border-radius: 0.5rem;
+}
+
+#clear {
+  font-family: "Permanent Marker", cursive;
+  border: rgb(183, 168, 197);
+  background-color: rgb(183, 168, 197);
+  color: #9e0f20;
+  border-radius: 0.5rem;
+  font-size: large;
+  width: 4rem;
+  height: 2rem;
+}
+
+ul {
+  list-style-type: none;
+  font-family: "Lobster", cursive;
+  font-size: xx-large;
+}
+
+.markDone {
+  text-decoration: line-through;
+}
